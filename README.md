@@ -1,3 +1,5 @@
+## Scottish Enterprise Content Style Guide
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/scotentSD/content-style-guide/edit/master/README.md) to maintain and preview the content for your website in Markdown files.

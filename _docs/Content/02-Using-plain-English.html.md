@@ -1,7 +1,7 @@
 ---
 title: Using plain English
 category: Guidelines
-order: 99
+order: 2
 ---
 
 You should always write in plain English on the GlobalScot platform. This basically means using everyday language that our users will be familiar with. It sounds easy, but it can be harder than it seems.

@@ -1,46 +1,66 @@
-# Welcome to the Mailchimp Content Style Guide
+# Edition
 
-This style guide is primarily for Mailchimp employees, but we hope it’s helpful to other organizations as well.
+Product documentation template for Jekyll. Browse through a [live demo](https://long-pig.cloudvent.net/).
+Start documenting your product, application, service or website with this configurable theme.
 
-If you're looking for the Mailchimp Content Style Guide website, visit [styleguide.mailchimp.com](http://styleguide.mailchimp.com).
+![Edition template screenshot](images/_screenshot.png)
 
-Whether or not you work at Mailchimp, we welcome your thoughts and suggestions. To learn more about sending us feedback or adapting this guide to create your own, see the Contributing file.
+Edition was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
 
-## Using the Guide
+Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
-We've set up an [example Middleman project](https://github.com/mailchimp/middleman-with-md-submodule-example).
+## Features
 
-## Creating a New File
+* Two column layout
+* Full text search
+* Pre-styled components
+* Auto-generated navigation based on category
+* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
+* Change log
+* RSS/Atom feed
+* SEO tags
+* Google Analytics
 
-This guide is a collection of Markdown files. This is a plaintext format that easily converts to HTML. Read more about it [here](http://daringfireball.net/projects/markdown/). Be sure you name your files without spaces with either an `.md` or `.markdown` extension.
+## Setup
 
-The files in this guide are prefixed with a double digit to set order. Make sure your file starts with a number that will place your new content in the desired position (eg: `04-`) and change the prefixes of the other files to reflect this change in order.
+1. Add your site and author details in `_config.yml`.
+2. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
 
-## Markdown
+## Develop
 
-Markdown is handy because you can write your content without HTML tags. Here are some tips to help you control the layout of your text.
+Edition was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
-### Line Breaks
+Install the dependencies with [Bundler](http://bundler.io/):
 
-If you want a line to break to the next line but don’t want to start a new paragraph, end the line with two spaces. This will render a `<br>` tag.
+~~~bash
+$ bundle install
+~~~
 
-### Widows
+Run `jekyll` commands through Bundler to ensure you're using the right versions:
 
-The best way to prevent widows is to type `&nbsp;` in the space between the last two words in a title or paragraph.
+~~~bash
+$ bundle exec jekyll serve
+~~~
 
-### Tables
+## Editing
 
-Tables can be written in Markdown by following this general style:
+Edition is already optimised for adding, updating and removing documentation pages in CloudCannon.
 
-```markdown
-| header 1 | header 2 |
-| -------- | -------- |
-| cell 1   | cell 2   |
-| cell 3   | cell 4   |
-```
+### Documentation pages
 
-The spacing is not important for the table to be rendered properly, and the cells do not have to line up. However it does help with readability when creating and editing tables.
+* Add, update or remove a documentation page in the *Documentation* collection.
+* Change the category of a documentation page to move it to another section in the navigation.
+* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
 
-### HTML Tags in Text
+### Change log
 
-When displaying HTML tags as text in content, be sure to wrap them in backticks, eg: \``<h3>`\`.
+* Add, update or remove change log entries from your posts.
+* Tag entries as minor or major in the front matter.
+
+### Search
+
+* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
+
+### Navigation
+
+* Change `site.show_full_navigation` to control all or only the current navigation group being open.

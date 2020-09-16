@@ -20,8 +20,8 @@ order: 1
 ```
 
 - **title** is the title (simple enough)
-- **category** is the category that you see post in the left menu subdivided into
-- **order** is the order the post should display within the category. 1 is top.
+- **category** is the category that you see posts, in the left menu, subdivided into
+- **order** is the order the post should display within the category. 1 is top
 
 When creating new posts allways remember to follow the naming Format
 - **yyyy-mm-dd-title.md**

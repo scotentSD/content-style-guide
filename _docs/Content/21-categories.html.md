@@ -26,6 +26,7 @@ order: 1
 When creating new posts allways remember to follow the naming Format
 **yyyy-mm-dd-title.md**
 
+
 ```
 **2020-12-30-title_of_the_post.md**
 ```  

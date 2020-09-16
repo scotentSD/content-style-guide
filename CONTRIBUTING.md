@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping us improve the Mailchimp Content Style Guide.
+Thanks for helping us improve the Content Style Guide.
 
 ## Ways to Contribute
 

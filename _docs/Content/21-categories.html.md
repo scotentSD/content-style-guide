@@ -24,7 +24,7 @@ order: 1
 - **order** is the order the post should display within the category. 1 is top.
 
 When creating new posts allways remember to follow the naming Format
-**yyyy-mm-dd-title.md**
+- **yyyy-mm-dd-title.md**
 
 
 ```

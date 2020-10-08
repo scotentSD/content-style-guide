@@ -1,7 +1,7 @@
 ---
 title: Word list
 category: Style guides
-order: 99
+order: 0
 ---
 
 This list helps clarify the spelling and formatting of words and terms that may be used on the GlobalScot platform. It’s an edited version of the Government Digital Service A-Z style guide, refined to include only the relevant words.

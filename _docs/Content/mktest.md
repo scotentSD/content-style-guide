@@ -1,32 +1,43 @@
 ---
-title: Test
-category: Sophie
+title: This is a test
+category: New Category
 order: 1
 ---
 
+# Heading 1
+## Heading 2
+### Heading 3
+### Heading 4
+##### Hedaing 5
+###### Heading 6
 
-**An example of adding in new Categories**
 
-When you add a post into the **docs>Content** folder it is mostly in  Markdown Format.
+## Normal and Bold Text 
+Normal Text 
+**Bold Test**
 
-At the top of the post though, are a couple of variables in the **Front Matter** section that is between the triple dash lines
+## Lists
+- List
+- List
+- List
+
+## Numbered Lists
+1. Numbered List
+2. Numbered List
+3. Numbered List
+
+##  Links
+[The BBC News](https://www.bbc.co.uk/news)
+
+## Blocks of code
+These are blocks where you can put stuff that would usually be interpreted as code
 
 ```
-- - -
-title: New Categories
-category: HowTo
-order: 1
-- - -
+To show a headings
+# Heading 1
+## Heading 2
+### Heading 3
+
+To show a link to the bbc
+[The BBC News](https://www.bbc.co.uk/news)
 ```
-
-- **title** is the title (simple enough)
-- **category** is the category that you see posts, in the left menu, subdivided into
-- **order** is the order the post should display within the category. 1 is top
-
-When creating new posts allways remember to follow the naming Format
-- **yyyy-mm-dd-title.md**
-
-
-```
-**2020-12-30-title_of_the_post.md**
-```  
